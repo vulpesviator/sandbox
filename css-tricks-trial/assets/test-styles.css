@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.tip-card {
+    flex: 1 0 25%;
+    border-width: 1px;
+    text-align: center;
+    padding: 10px;
+    border-style: solid;
+}
+
+@media screen and (max-width: 768px) {
+    .tip-card {
+        flex: 1 0 100%;
+    }
+}
